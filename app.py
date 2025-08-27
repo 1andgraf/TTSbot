@@ -298,3 +298,14 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+from flask import Flask
+import threading
+
+flask_app = Flask("health")
+
+@flask_app.route("/")
+def index():
+    return "Bot is running!"
+
+threading.Thread(target=lambda: flask_app.run(host="0.0.0.0", port=10000)).start()
