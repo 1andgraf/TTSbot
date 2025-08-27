@@ -4,8 +4,8 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, InputTe
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, InlineQueryHandler, filters, ContextTypes
 import uuid
 
-TELEGRAM_TOKEN = "tgkey"
-ELEVEN_API_KEY = "elevenlabskey"
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+ELEVEN_API_KEY = os.getenv("ELEVEN_API_KEY")
 
 if not TELEGRAM_TOKEN or not ELEVEN_API_KEY:
     raise ValueError("Please set TELEGRAM_TOKEN and ELEVEN_API_KEY")
