@@ -1,6 +1,9 @@
 # Text To Speech Telegram Bot
 
-This is a Telegram bot designed to convert text into speech.  
+This is a Telegram bot designed to convert text into speech.
+
+## Check out the bot
+
 https://t.me/landgrafvoicebot
 
 ## Features
