@@ -5,6 +5,7 @@ This is a Telegram bot designed to convert text into speech.
 ## Check out the bot
 
 https://t.me/landgrafvoicebot
+Start the bot by sending the `/start` command. The bot will present you with a menu.
 
 ## Features
 
@@ -13,10 +14,6 @@ https://t.me/landgrafvoicebot
 - **Language Support:** Supports multiple languages such as English, Spanish, French, German, and Italian.
 - **Customizable Settings:** Adjust output volume, speed, and voice stability.
 - **Inline Queries:** Generate TTS audio directly from any chat via inline queries without leaving the conversation.
-
-## Usage
-
-Start your bot by sending the `/start` command. The bot will present you with a menu.
 
 ## Inline Queries
 
