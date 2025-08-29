@@ -14,6 +14,7 @@ Start the bot by sending the `/start` command. The bot will present you with a m
 - **Language Support:** Supports multiple languages such as English, Spanish, French, German, and Italian.
 - **Customizable Settings:** Adjust output volume, speed, and voice stability.
 - **Inline Queries:** Generate TTS audio directly from any chat via inline queries without leaving the conversation.
+- **Files** Bot sends you both telegram voice message and MP3 file so you can use it everywhere.
 
 ## Inline Queries
 
